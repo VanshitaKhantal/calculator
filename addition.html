@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="add.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script> 
+           function addition()
+           {
+            var num1, num2, sum;
+            num1 =  parseFloat(document.getElementById("firstNumber").value);
+            num2 =  parseFloat(document.getElementById("secondNumber").value);
+            sum= num1 + num2;
+            document.getElementById("result").value=sum;
+            }
+           function clear_inputs()
+           {
+            document.getElementById("firstNumber").value=" ";
+            document.getElementById("secondNumber").value=" ";
+            document.getElementById("result").value=" ";
+           }
+            </script>
+        <title>Add two numbers</title>
+    </head>
+    <body>
+        <h1 class="title"><u>Addition</u></h1>
+        <div class="calculate">
+                <div class="row">
+                    <label for="firstNumber" class="label">ENTER THE FIRST NUMBER</label>
+                    <input id="firstNumber" class="textfield" type="number" placeholder="in digits"/>
+                </div>
+                <div class="row">
+                    <label for="secondNumber" class="label">ENTER THE SECOND NUMBER</label>
+                    <input id="secondNumber" class="textfield" type="number" placeholder="in digits"/>
+                </div>
+                <button id="submit" class="button" onclick="addition()">Calculate</button>
+                <button id="name" onclick="clear_inputs()">Clear</button>
+                <div id="van">
+                 <p id="van1"><b>Result is:</b> <input id ="result" class="textfield" placeholder="in digits"></p>
+                </div>
+        </div>
+    </body>
+</html>
