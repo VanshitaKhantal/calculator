@@ -132,10 +132,11 @@ figure:hover img{
         height:1vh;
         }
     .label{
-        font-size:26px;
+        font-size:24px;
         float:left;
         width:50vw;
        position:relative;
+        height:8vh;
          }
     .textfield{
         width:50vw;
