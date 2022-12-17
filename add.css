@@ -129,10 +129,10 @@ figure:hover img{
     .title{
         font-size:34px;
         width:100vw;
-        height:1vh;
+        height:3vh;
         }
     .label{
-        font-size:22px;
+        font-size:26px;
         float:left;
         width:50vw;
        position:relative;
