@@ -127,12 +127,12 @@ figure:hover img{
  @media screen and (max-width:600px)
  {
     .title{
-        font-size:30px;
-        width:120vw;
-        height:5vh;
+        font-size:34px;
+        width:100vw;
+        height:1vh;
         }
     .label{
-        font-size:20px;
+        font-size:26px;
         float:left;
         width:50vw;
        position:relative;
@@ -150,7 +150,7 @@ figure:hover img{
 @media screen and (max-width:600px)
 {
     img{
-        width:15vw;
+        width:18vw;
         }
     .sign{
         width:100vw;
