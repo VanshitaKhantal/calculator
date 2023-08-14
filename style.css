@@ -91,7 +91,7 @@ body{
     height: 3vh;
     width: 8vw;
 }
-#nam{
+#name{
     font-size: 5vh;
     display: inline-flex;
     align-items: center;
@@ -166,7 +166,7 @@ body{
    #ritik4{
     transform: translate(3vh);
    }
-   #nam{
+   #name{
     font-size: 4vh;
     transform: translate(5vh,70vw);
    }
